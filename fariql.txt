@@ -1,0 +1,9 @@
+fari $createFunc(a int, b int){
+	return a + b 
+}
+
+fari main() {
+	int a = 3; 
+	int b = 4; 
+	let $result = $createFunc(a, b); 
+}  
